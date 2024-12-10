@@ -10,14 +10,16 @@ export default function Home() {
             Escolha seu tema
             <ModeToggle />
           </span>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl p-10 prose-2xl font-black">
-            Agora ficou facil fazer e enviar orcamentos com
-            <span className="text-primary ml-2">OrcarJa</span>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl p-5 prose-2xl font-black">
+            Criar e enviar orçamentos em PDF nunca foi tão rápido e fácil.
+            
           </h1>
 
-          <p className="max-w-[20rem] md:max-w-[25rem] lg:max-w-[32rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-            Testando este texto para falar um pouco sobre o meu curso que vou
-            dar{" "}
+          <p className="max-w-[25rem] md:max-w-[25rem] lg:max-w-[32rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
+            Simplifique sua rotina agora mesmo com o OrçarJá, você cria orçamentos profissionais em PDF de forma
+            simples e rápida, personaliza cada detalhe e os envia diretamente
+            por e-mail aos seus clientes. Tudo isso em uma plataforma intuitiva
+            e feita para quem valoriza agilidade e eficiência no dia a dia.{" "}
           </p>
           <div className="space-x-4">
             <Button>Assinar agora</Button>
@@ -48,3 +50,12 @@ export default function Home() {
     </main>
   );
 }
+
+
+// cadastro de serviços
+//envio de orçamentos por email
+//confirmação de leitura do email
+//baixe o PDF e envie por onde quiser
+//listagem de orçamentos enviados
+//estatisticas de orçamentos enviados e valores gerados
+
