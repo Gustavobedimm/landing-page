@@ -4,7 +4,7 @@ function SectionFunc() {
   return (
     <section
       id="sobre"
-      className=" dark:bg-transparent space-y-6 md:py-12 lg:py-12 md:max-w-[64rem]"
+      className=" dark:bg-transparent space-y-6 md:py-12 lg:py-12 md:max-w-[64rem] mb-10"
     >
         <div className="mx-auto flex flex-col items-center space-y-1 text-center">
         <h2 className="text-3xl font-black leading-[1.1] md:text-6xl">
@@ -14,7 +14,7 @@ function SectionFunc() {
         Simplifique sua rotina agora mesmo com o OrçarJá, você cria orçamentos profissionais em PDF de forma simples e rápida e os envia diretamente por e-mail aos seus clientes.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 w-full border rounded-lg items-start gap-10 p-10">
+      <div className="grid grid-cols-1 md:grid-cols-2  border rounded-lg  gap-10 p-10 mx-6 items-center justify-center ">
         <div className="flex flex-col gap-6 items-center">
 
         <h3 className="text-xl font-bold sm:text-2xl">Oque esta incluso na assinatura ?</h3>

@@ -14,9 +14,3 @@ export default function Home() {
   );
 }
 
-// cadastro de serviços
-//envio de orçamentos por email
-//confirmação de leitura do email
-//baixe o PDF e envie por onde quiser
-//listagem de orçamentos enviados
-//estatisticas de orçamentos enviados e valores gerados

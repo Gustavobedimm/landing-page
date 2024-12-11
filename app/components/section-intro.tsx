@@ -21,7 +21,7 @@ function SectionIntro(){
 
         <svg
           viewBox="0 0 1024 1024"
-          className="absolute left-1/5 md:left-1/2 top-full md:top-1/2 lg:top-1/3 -z-10 size-[32rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
+          className="absolute -z-10  [mask-image:radial-gradient(closest-side,white,transparent)] items-center top-[25%]"
           aria-hidden="true"
         >
           <circle
