@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 function SectionFunc() {
   return (
@@ -38,7 +39,9 @@ function SectionFunc() {
                 </h4>
                 <h4 className="font-bold text-xl"> Assinatura mensal</h4>
                 <div className="space-x-1">
+                <Link href="https://orcarja.com.br/cadastrar">
             <Button>Criar minha conta agora</Button>
+            </Link>
           </div>
             </div>
 

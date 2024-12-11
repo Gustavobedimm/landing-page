@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ModeToggle } from "./select-theme";
+import Link from "next/link";
 
 function SectionIntro(){
     return (
@@ -15,7 +16,9 @@ function SectionIntro(){
 
           
           <div className="space-x-4">
+          <Link href="https://orcarja.com.br/cadastrar">
             <Button>Criar minha conta agora</Button>
+            </Link>
           </div>
         </div>
 
